@@ -146,7 +146,7 @@
         </div>
         <div class="block-text">
 
-          <h2>430/1000</h2>
+          <h2>450/1000</h2>
           <h3>Downloaded Books</h3>
         </div>
 
