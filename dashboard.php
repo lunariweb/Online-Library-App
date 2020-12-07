@@ -141,7 +141,7 @@
 
         </div>
         <div class="block-text">
-          <h2>422/1000</h2>
+          <h2>430/1000</h2>
         </div>
 
         <div class="block-controler">
