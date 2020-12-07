@@ -1,0 +1,209 @@
+body {
+    background-image: url(books_library_shelves_138556_1920x1080.jpg);
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 130px;
+    flex-direction: column;
+    
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+h2{
+    letter-spacing: 5px;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 500px;
+    height: 550px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+    
+    
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button{
+    
+    
+    width: 140px;
+    float: right;
+    
+    padding: 20px 15px;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+    
+  background-color: forestgreen;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    
+}
+
+button:hover{
+    
+    background-color: black;
+    opacity: .7;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+}
+
+a {
+    
+    display: block;
+    background-color: darkgoldenrod;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+    shape-outside: border-box;
+    width: 100%;
+    text-align: center;
+    
+   
+    
+    
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+.button2 {
+    
+    margin-top: 30px;
+    display: block;
+    width: 100%%;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.button2:hover{
+    background-color: dimgrey;
+    color: white;
+    
+}
+
+h3 {
+    
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+.form2 {
+    width: 500px;
+    height: 800px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    
+    
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+.button3 {
+    
+    text-align: center;
+    background-color:darkcyan;
+    
+    width: auto;
+    
+    padding: 15px 30px;
+    
+    width: 150px;
+    margin-left: 9px;
+    
+    transition-duration: 0.4;
+    
+    
+    
+    
+    
+}
+
+.button3:hover {
+    
+    background-color: dimgrey;
+    color: white;
+    
+}
+
+
+
+

@@ -1,0 +1,71 @@
+h1 {
+    
+    font-family: sans-serif;
+    text-align: center;
+    
+    font-size: 72px;
+    color: white;
+}
+
+
+body {
+    
+    background-image: url(books_library_shelves_138556_1920x1080.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+    background-repeat: no-repeat;   
+}
+
+h2 {
+    
+    font-family: sans-serif;
+    text-align: center;
+    
+    font-size: 50px;
+    color: white;
+}
+
+
+
+h3 {
+    
+    color: white;
+    font-size: 30px;
+    
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.b2{
+    
+    display: block;
+    background-color: forestgreen;
+    padding: 20px 6px;
+    color: #fff;
+    border-radius: 5px;
+    width: 110px;
+    margin-left: 93%;
+    
+    font-family: sans-serif;
+    border: none;
+    text-decoration: none;
+    shape-outside: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    
+    
+    
+    
+    
+    transition-duration: 0.4;
+    
+}
+
+.b2:hover {
+    
+    background-color: dimgrey;
+}
+
