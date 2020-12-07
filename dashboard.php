@@ -100,36 +100,7 @@
    </div>
   </header>
   <body>
-    <div class="container">
-      <div class="box">
-        <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
-        <div class="content">
-          <h3>Search</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-        <div class="content">
-          <h3>Search</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="content">
-          <h3>Search</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="content">
-          <h3>Search</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
-        </div>
-      </div>
-    </div>
+    
 
 
     <div class="blockholder">
@@ -141,7 +112,9 @@
 
         </div>
         <div class="block-text">
+
           <h2>430/1000</h2>
+          <h3>Downloaded Books</h3>
         </div>
 
         <div class="block-controler">
@@ -152,23 +125,65 @@
 
         </div>
 
+      </div>
+      <div class="block">
+        <div class="block-icon">
+          <i class="fa fa-id-card" aria-hidden="true"></i>
 
 
+        </div>
+        <div class="block-text">
+          <h2>#OL2012081157</h2>
+          <h3>User ID</h3>
+        </div>
 
+        <div class="block-controler">
+          <div class="button">
+            <h3>Details</h3>
 
+          </div>
 
-
-
-
+        </div>
 
       </div>
       <div class="block">
+        <div class="block-icon">
+          <i class="fa fa-user" aria-hidden="true"></i>
+
+
+        </div>
+        <div class="block-text">
+          <h2>Your Uname</h2>
+          <h3>User Name</h3>
+        </div>
+
+        <div class="block-controler">
+          <div class="button">
+            <h3>Change</h3>
+
+          </div>
+
+        </div>
 
       </div>
       <div class="block">
+        <div class="block-icon">
+          <i class="fa fa-briefcase" aria-hidden="true"></i>
 
-      </div>
-      <div class="block">
+
+        </div>
+        <div class="block-text">
+          <h2>10/50</h2>
+          <h3>Personal Briefcase</h3>
+        </div>
+
+        <div class="block-controler">
+          <div class="button">
+            <h3>Browse</h3>
+
+          </div>
+
+        </div>
 
       </div>
 
