@@ -19,7 +19,7 @@ header {
 
 .headcontainer{
   position: relative;
-  width: 1600px;
+  width: 1700px;
   height: 100px;
 
 
@@ -353,7 +353,68 @@ header {
   color: #fff;
   font-size: 20px;
 }
+/*menu placeholder5 stylesheet - end*/
+
+
+
 /*menu placeholder5 stylesheet - begin*/
+.headcontainer .menu-place6 {
+  position: relative;
+
+  width: 137px;
+  height: 40px;
+  background: #C0392B;
+  float: left;
+  margin-left: 400px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+
+
+}
+.headcontainer .menu-place6:hover {
+  background: #666;
+  cursor: pointer;
+}
+
+.headcontainer .menu-place6 .menu-content6{
+  position: relative;
+  width: 130px;
+  float: left;
+  height: 40px;
+
+}
+
+.headcontainer .menu-place6 .menu-content6 .icon6 {
+  margin-left: 15px;
+  margin-top: 4px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6{
+
+  margin-top: -55px;
+  margin-left: 50px;
+
+
+
+}
+.headcontainer .menu-place6 .menu-content6 .text6 h4{
+  color: #fff;
+  font-size: 20px;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 h4 a{
+  color: #fff;
+
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 h4 a:link{
+  text-decoration: none;
+}
+/*menu placeholder5 stylesheet - end*/
 
 
 
@@ -365,10 +426,10 @@ header {
 /*blockholder and blocks- begin*/
 
 .blockholder {
-  position: relative;
-  width: 1600px;
+  position: absolute;
+  width: 1700px;
   height: 300px;
-  margin: 240px auto;
+  margin-left: 8%;
   margin-top: 20px;
 
 }
@@ -383,6 +444,12 @@ header {
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.blockholder .block:hover{
+  width: calc(500px - 30px);
+  height: calc(400px - 30px);
 }
 
 .blockholder .block .block-icon .fa-book {
@@ -449,27 +516,29 @@ header {
 
 .blockholder .block .block-controler {
   position: absolute;
-  width: 100%;
+  width: 400px;
   background-color: ;
-  height: 55px;
+  height: 400px;
   bottom: 2%;
-  left: 130px;
+  left: 0%;
+  top: 50%;
   transition: 0.5s;
+  background-color:  ;
 }
 
 .blockholder .block .block-controler:hover {
-  left: 10px;
+  top: 20px;
 }
 
 
 
 .blockholder .block .block-controler .button {
   position: absolute;
-  width: 100px;
+  width: 200px;
   height: 40px;
-  background-color: #1F618D;
-  margin-left: 65%;
-  margin-top: 7px;
+  background-color: #1D8348;
+  margin-left: 34%;
+  margin-top: 210px;
   box-sizing: border-box;;
   border-radius: 6px;
 }
@@ -484,7 +553,7 @@ header {
   color: #fff;
   font-family: sans-serif;
   font-size: 20px;
-  margin-left: 16px;
+  margin-left: 60px;
   margin-top: 8px;
 }
 

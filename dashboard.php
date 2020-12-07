@@ -89,9 +89,42 @@
        </div>
 
      </div>
-     <div class="logout">
+     <div class="menu-place6" href="logout.php">
+
+       <div class="menu-content6">
+         <div class="icon6">
+           <i class="fa fa-sign-out" aria-hidden="true"></i>
+
+         </div>
+         <div class="text6">
+           <h4>
+             <?php
+
+                 session_start();
+
+                 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
+
+
+             ?>
+             <a href="logout.php">Logout</a>
+
+             <?php
+                 }else{
+                     header("Location: index.php");
+                 exit();
+                 }
+
+             ?>
+
+
+           </h4>
+         </div>
+
+
+       </div>
 
      </div>
+
 
 
     </div>
@@ -100,7 +133,7 @@
    </div>
   </header>
   <body>
-    
+
 
 
     <div class="blockholder">
