@@ -193,7 +193,7 @@
         <!-- showcase box 1--->
         <li class="item-a">
           <div class="showcase-box">
-            <img src="books_library_shelves_138556_1920x1080.jpg">
+            <img src="books\covers\Harry-Potter-pop-up-book-matthew-reinhart.jpg">
 
           </div>
         </li>
@@ -201,7 +201,7 @@
         <!-- showcase box 2--->
         <li class="item-b">
           <div class="showcase-box">
-            <img src="books_library_shelves_138556_1920x1080.jpg">
+            <img src="books\covers\harrypotter-deathlyhallows-stanvince-frontpage.jpg">
 
           </div>
         </li>
@@ -209,7 +209,7 @@
         <!-- showcase box 3--->
         <li class="item-c">
           <div class="showcase-box">
-            <img src="books_library_shelves_138556_1920x1080.jpg">
+            <img src="books\covers\LRS_Landscape_Horiz_w2.0_web.jpg">
 
           </div>
         </li>
@@ -217,7 +217,7 @@
         <!-- showcase box 4--->
         <li class="item-d">
           <div class="showcase-box">
-            <img src="books_library_shelves_138556_1920x1080.jpg">
+            <img src="books\covers\wallpaper2you_5291.jpg">
 
           </div>
         </li>
@@ -225,7 +225,7 @@
         <!-- showcase box 5--->
         <li class="item-e">
           <div class="showcase-box">
-            <img src="books_library_shelves_138556_1920x1080.jpg">
+            <img src="books\covers\wallpaper2you_5293.jpg">
 
           </div>
         </li>
@@ -250,14 +250,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\philsophers-stone-uk-childrens-edition-600x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 1997</strong>
+              <p>Philsophers Stone</p>
 
             </div>
 
@@ -272,14 +272,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\chamber-of-secrets-uk-childrens-edition-2014-400x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 1998</strong>
+              <p>Chamber Of Secrets</p>
 
             </div>
 
@@ -294,14 +294,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\prisoner-of-azkaban-uk-childrens-edition-2014-400x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 1999</strong>
+              <p>Prisoner Of Azkaban</p>
 
             </div>
 
@@ -316,14 +316,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\goblet-of-fire-adult-edition-301x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 2000</strong>
+              <p>Goblet Of Fire</p>
 
             </div>
 
@@ -338,14 +338,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\order-of-the-phoenix-us-childrens-edition-2013-600x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 2003</strong>
+              <p>Order Of The Phoenix</p>
 
             </div>
 
@@ -360,14 +360,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\half-blood-prince-adult-edition-311x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Herry Potter 2005</strong>
+              <p>Half-Blood Prince</p>
 
             </div>
 
@@ -382,14 +382,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\deathly-hallows-signature-edition-313x0-c-default.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Harry Potter 2007</strong>
+              <p>Deathly Hallows</p>
 
             </div>
 
@@ -404,14 +404,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\81NUBiDacoL.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Narnia</strong>
+              <p>The Wardrobe, The Lion and The Witch</p>
 
             </div>
 
@@ -426,14 +426,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\51EstVXM1UL._SX331_BO1,204,203,200_.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>Lord Of The Rings</strong>
+              <p>First Edition</p>
 
             </div>
 
@@ -448,14 +448,14 @@
           <div class="latest-box">
             <!--- image of the latest boz-------------------------------->
             <div class="latest-b-img">
-              <img src="books_library_shelves_138556_1920x1080.jpg">
+              <img src="books\covers\27cf91f605923223613909c7b9d2219f.jpg">
 
             </div>
 
             <!--- text of the image box------------------------------------>
             <div class="latest-b-text">
-              <strong>Kin 2018</strong>
-              <p>Action Movie</p>
+              <strong>The Hobbit</strong>
+              <p>First Edition</p>
 
             </div>
 
@@ -480,14 +480,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">1997</div>
+          <img src="books\covers\philsophers-stone-uk-childrens-edition-600x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Philsophers Stone
       </a>
 
       </div>
@@ -496,14 +496,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">1998</div>
+          <img src="books\covers\chamber-of-secrets-uk-childrens-edition-2014-400x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Chamber Of Secrets
       </a>
 
       </div>
@@ -512,14 +512,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">1999</div>
+          <img src="books\covers\prisoner-of-azkaban-uk-childrens-edition-2014-400x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Prisoner Of Azkaban
       </a>
 
       </div>
@@ -528,14 +528,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">2000</div>
+          <img src="books\covers\goblet-of-fire-adult-edition-301x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And the Goblet Of Fire
       </a>
 
       </div>
@@ -544,14 +544,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">2003</div>
+          <img src="books\covers\order-of-the-phoenix-us-childrens-edition-2013-600x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Order Of The Phoenix
       </a>
 
       </div>
@@ -560,14 +560,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">2005</div>
+          <img src="books\covers\half-blood-prince-adult-edition-311x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Half-Blood Prince
       </a>
 
       </div>
@@ -576,14 +576,14 @@
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
         <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">HDRip</div>
-          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+          <div class="quality">2007</div>
+          <img src="books\covers\deathly-hallows-signature-edition-313x0-c-default.jpg">
 
         </div>
 
       <!--- text ------------------------------------------------------------>
       <a href="#">
-        Tin (2018) Full movie wih english subs
+        Harry Potter And The Deathly Hallows
       </a>
 
     </div>
@@ -592,14 +592,46 @@
     <div class="books-box"> <!--- change this to books-box later----------------------------------------->
       <!-- book image----------------------->
       <div class="books-img"><!--- change this to books-img------------------------>
-        <div class="quality">HDRip</div>
-        <img src="images\AGU-Stock-blank-book-pencil.jpg">
+        <div class="quality">1st Edition</div>
+        <img src="books\covers\81NUBiDacoL.jpg">
 
       </div>
 
     <!--- text ------------------------------------------------------------>
     <a href="#">
-      Tin (2018) Full movie wih english subs
+      The Chronicles Of Narnia
+    </a>
+
+    </div>
+
+    <!--- box 9------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">1st Edition</div>
+        <img src="books\covers\51EstVXM1UL._SX331_BO1,204,203,200_.jpg">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="#">
+      Lord Of The Ring
+    </a>
+
+    </div>
+
+    <!--- box 10------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">1st Edition</div>
+        <img src="books\covers\27cf91f605923223613909c7b9d2219f.jpg">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="#">
+      The Hobbit
     </a>
 
     </div>
