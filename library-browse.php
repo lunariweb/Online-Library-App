@@ -2,6 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!--- meta lines to make the programm resposive------------------->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- --------------------------------------------------------------------------------------->
+
+
+
     <title>Browse Library</title>
     <link rel="stylesheet" type="text/css" href="style6.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
@@ -147,11 +154,19 @@
           <img src="#" alt="">
         </a>
 
+        <!--- Button at the menu---------------------------------------------------->
+        <!--<input type="checkbox" class="menu-btn" id="menu-btn"/>    optional----------------->
+      <!--  <label class="menu-icon" for="menu-btn"> ------------>
+        <!--  <span class="nav-icon"></span> ----------->
+      <!--- </label>-------------------->
+
+
+
         <!-- menu of the library browser --->
 
         <ul class="menu">
           <li><a href="#">Home </a></li>
-          <li><a href="#">Movies</a></li>
+          <li><a href="#">books</a></li>
           <li><a href="#">TV Shows</a></li>
           <li><a href="#">Hollywood</a></li>
           <li><a href="#">Horror</a></li>
@@ -161,7 +176,7 @@
         <!--- search bar--->
 
         <div class="search">
-          <input type="text" placeholder="Find Movies">
+          <input type="text" placeholder="Find books">
           <i class="fa fa-search" aria-hidden="true"></i>
 
         </div>
@@ -455,15 +470,17 @@
 
 
     <!--- Books----------------------------------------------------------------->
-    <div class="movies-heading"> <!--- change this to books later------------------------------------>
+    <div class="books-heading"> <!--- change this to books later------------------------------------>
       <h2>Books</h2>
 
     </div>
 
-    <section id="movis-list"> <!--- change this to books list later--------------------------------------->
-      <div class="movies-box"> <!--- change this to books-box later----------------------------------------->
+    <section id="books-list"> <!--- change this to books list later--------------------------------------->
+      <!--- box 1------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
-        <div class="movies-img"><!--- change this to books-img------------------------>
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
           <img src="images\AGU-Stock-blank-book-pencil.jpg">
 
         </div>
@@ -475,7 +492,136 @@
 
       </div>
 
+      <!--- box 2------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+      </div>
+
+      <!--- box 3------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+      </div>
+
+      <!--- box 4------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+      </div>
+
+      <!--- box 5------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+      </div>
+
+      <!--- box 6------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+      </div>
+
+      <!--- box 7------------------------>
+      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="books-img"><!--- change this to books-img------------------------>
+          <div class="quality">HDRip</div>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
+
+    </div>
+
+    <!--- box 8------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">HDRip</div>
+        <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="#">
+      Tin (2018) Full movie wih english subs
+    </a>
+
+    </div>
+
+
+
     </section>
+
+  <!--- Buttons on the bottom of the browse page---------------------->
+  <div class="btns">
+    <a href="#">Previous</a>
+    <a href="#">Next</a>
+
+  </div>
+
+  <!--- Footer ------------------------------------------------------------------------------------------------------->
+
+  <footer>
+    <p>Online Library, A Project Of SLTC</p>
+    <p>Copyright 2020 - Team Dominators (SLTC)</p>
+  </footer>
+
 
     <!--- the slider scrpit form JQuery--->
     <script>
