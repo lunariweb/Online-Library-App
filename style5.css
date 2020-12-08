@@ -195,6 +195,15 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.headcontainer .menu-place2 .menu-content2 .text2 h4 a{
+
+  color: #fff;
+}
+
+.headcontainer .menu-place2 .menu-content2 .text2 h4 a:link{
+  text-decoration: none;
+}
 /*menu placeholder2 stylesheet - begin*/
 
 

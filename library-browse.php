@@ -5,6 +5,12 @@
     <title>Browse Library</title>
     <link rel="stylesheet" type="text/css" href="style6.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="lightslider.css">
+
+    <!-- java scrpit jQuery link--------------------->
+
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
   </head>
 
   <header>
@@ -25,7 +31,7 @@
 
          </div>
          <div class="hometext">
-           <h4>Home</h4>
+           <h4><a href="dashboard.php">Home</a></h4>
          </div>
 
 
@@ -40,7 +46,7 @@
 
          </div>
          <div class="text2">
-           <h4>Browse</h4>
+           <h4><a href="library-browse.php">Browse</a></h4>
          </div>
 
 
@@ -166,12 +172,326 @@
       <!-- below he header-->
 
       <h1 class="showcase-heading">Showcase</h1>
-      <div class="showcase-box">
-        <img src="books_library_shelves_138556_1920x1080.jpg">
+
+
+      <ul id="autoWidth" class="cs-hidden">
+        <!-- showcase box 1--->
+        <li class="item-a">
+          <div class="showcase-box">
+            <img src="books_library_shelves_138556_1920x1080.jpg">
+
+          </div>
+        </li>
+
+        <!-- showcase box 2--->
+        <li class="item-b">
+          <div class="showcase-box">
+            <img src="books_library_shelves_138556_1920x1080.jpg">
+
+          </div>
+        </li>
+
+        <!-- showcase box 3--->
+        <li class="item-c">
+          <div class="showcase-box">
+            <img src="books_library_shelves_138556_1920x1080.jpg">
+
+          </div>
+        </li>
+
+        <!-- showcase box 4--->
+        <li class="item-d">
+          <div class="showcase-box">
+            <img src="books_library_shelves_138556_1920x1080.jpg">
+
+          </div>
+        </li>
+
+        <!-- showcase box 5--->
+        <li class="item-e">
+          <div class="showcase-box">
+            <img src="books_library_shelves_138556_1920x1080.jpg">
+
+          </div>
+        </li>
+
+
+      </ul>
+
+
+
+
+
+
+    </section>
+
+    <!-- Latest Books Add here------------------------------------------------>
+    <section id="latest">
+      <h2 class="latest-heading">Latest Books</h2>
+      <!--- slider -------------------------------------------------------------->
+      <ul id="autoWidth2" class="cs-hidden">
+        <!--- slider box 1-------------------------------------->
+        <li class="item-a">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- --------------------------------------------------------------------------------->
+
+        <!--- slider box 2-------------------------------------->
+        <li class="item-b">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------>
+
+        <!--- slider box 3-------------------------------------->
+        <li class="item-c">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- --------------------------------------------------------------------------------------------->
+
+        <!--- slider box 4-------------------------------------->
+        <li class="item-d">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 5-------------------------------------->
+        <li class="item-e">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 6-------------------------------------->
+        <li class="item-f">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 7-------------------------------------->
+        <li class="item-g">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 8-------------------------------------->
+        <li class="item-h">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 9-------------------------------------->
+        <li class="item-i">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+        <!--- ------------------------------------------------------------------------------------------------->
+
+        <!--- slider box 10-------------------------------------->
+        <li class="item-j">
+          <div class="latest-box">
+            <!--- image of the latest boz-------------------------------->
+            <div class="latest-b-img">
+              <img src="books_library_shelves_138556_1920x1080.jpg">
+
+            </div>
+
+            <!--- text of the image box------------------------------------>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+
+            </div>
+
+
+          </div>
+        </li>
+
+
+
+      </ul>
+    </section>
+
+
+    <!--- Books----------------------------------------------------------------->
+    <div class="movies-heading"> <!--- change this to books later------------------------------------>
+      <h2>Books</h2>
+
+    </div>
+
+    <section id="movis-list"> <!--- change this to books list later--------------------------------------->
+      <div class="movies-box"> <!--- change this to books-box later----------------------------------------->
+        <!-- book image----------------------->
+        <div class="movies-img"><!--- change this to books-img------------------------>
+          <img src="images\AGU-Stock-blank-book-pencil.jpg">
+
+        </div>
+
+      <!--- text ------------------------------------------------------------>
+      <a href="#">
+        Tin (2018) Full movie wih english subs
+      </a>
 
       </div>
 
     </section>
+
+    <!--- the slider scrpit form JQuery--->
+    <script>
+    $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth, #autoWidth2').removeClass('cS-hidden');
+        }
+    });
+  });
+
+
+
+    </script>
 
   </body>
 

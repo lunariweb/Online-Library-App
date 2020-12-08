@@ -40,7 +40,7 @@
 
          </div>
          <div class="text2">
-           <h4>Browse</h4>
+           <h4><a href="library-browse.php">Browse</a></h4>
          </div>
 
 
