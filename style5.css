@@ -257,6 +257,15 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.headcontainer .menu-place3 .menu-content3 .text3 h4 a{
+  color: #fff;
+
+}
+
+.headcontainer .menu-place3 .menu-content3 .text3 h4 a:link{
+  text-decoration: none;
+}
 /*menu placeholder3 stylesheet - begin*/
 
 

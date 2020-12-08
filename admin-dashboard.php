@@ -3,7 +3,7 @@
 
   <head>
     <title> Dashboard </title>
-    <link rel="stylesheet" type="text/css" href="style5.css">
+    <link rel="stylesheet" type="text/css" href="admin-dashboard-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
   </head>
 
@@ -15,7 +15,7 @@
 
      </div>
      <div class="titletext">
-       <h2> Onlne Library </h2>
+       <h2>Admin Dashboard</h2>
      </div>
 
      <div class="menu-place1">
@@ -25,7 +25,7 @@
 
          </div>
          <div class="hometext">
-           <h4>Home</h4>
+           <h4><a href="#">Home</a></h4>
          </div>
 
 
@@ -40,7 +40,7 @@
 
          </div>
          <div class="text2">
-           <h4><a href="library-browse.php">Browse</a></h4>
+           <h4><a href="#">Browse</a></h4>
          </div>
 
 
@@ -50,11 +50,11 @@
      <div class="menu-place3">
        <div class="menu-content3">
          <div class="icon3">
-           <i class="fa fa-paper-plane" aria-hidden="true"></i>
+           <i class="fa fa-plus" aria-hidden="true"></i>
 
          </div>
          <div class="text3">
-           <h4><a href="book-request.php">Request</a></h4>
+           <h4><a href="addbook.php">Add Books</a></h4>
          </div>
 
 
@@ -102,7 +102,7 @@
 
                  session_start();
 
-                 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
+                 if (isset($_SESSION['id']) && isset($_SESSION['admin_uname'])){
 
 
              ?>
@@ -140,19 +140,19 @@
       <div class="block">
 
         <div class="block-icon">
-          <i class="fa fa-book" aria-hidden="true"></i>
+          <i class="fa fa-user" aria-hidden="true"></i>
 
 
         </div>
         <div class="block-text">
 
-          <h2>450/1000</h2>
-          <h3>Downloaded Books</h3>
+          <h2>10/500</h2>
+          <h3>Users Registered</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Browse</h3>
+            <h3><a href="admin.php">manage</a></h3>
 
           </div>
 
@@ -161,18 +161,18 @@
       </div>
       <div class="block">
         <div class="block-icon">
-          <i class="fa fa-id-card" aria-hidden="true"></i>
+          <i class="fa fa-book" aria-hidden="true"></i>
 
 
         </div>
         <div class="block-text">
-          <h2>#OL2012081157</h2>
-          <h3>User ID</h3>
+          <h2>120/1000</h2>
+          <h3>Books</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Details</h3>
+            <h3>Add Books</h3>
 
           </div>
 
@@ -186,13 +186,13 @@
 
         </div>
         <div class="block-text">
-          <h2>Your Uname</h2>
-          <h3>User Name</h3>
+          <h2>3/10</h2>
+          <h3>Admins</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Change</h3>
+            <h3>View</h3>
 
           </div>
 
@@ -201,18 +201,18 @@
       </div>
       <div class="block">
         <div class="block-icon">
-          <i class="fa fa-briefcase" aria-hidden="true"></i>
+          <i class="fa fa-id-card" aria-hidden="true"></i>
 
 
         </div>
         <div class="block-text">
-          <h2>10/50</h2>
-          <h3>Personal Briefcase</h3>
+          <h2>Your ID</h2>
+          <h3>Admin ID Card</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Browse</h3>
+            <h3>View</h3>
 
           </div>
 

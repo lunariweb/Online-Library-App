@@ -53,7 +53,7 @@
 
          </div>
          <div class="text2">
-           <h4><a href="library-browse.php">Browse</a></h4>
+           <h4><a href="#">Browse</a></h4>
          </div>
 
 
@@ -63,11 +63,11 @@
      <div class="menu-place3">
        <div class="menu-content3">
          <div class="icon3">
-           <i class="fa fa-search" aria-hidden="true"></i>
+           <i class="fa fa-paper-plane" aria-hidden="true"></i>
 
          </div>
          <div class="text3">
-           <h4>Search</h4>
+           <h4><a href="book-request.php">Request</a></h4>
          </div>
 
 

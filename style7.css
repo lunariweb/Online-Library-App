@@ -1,14 +1,22 @@
 body {
+    background-color: #CACFD2;
 
-  margin: 0;
-  padding: 0;
-  background-color: #EBEDEF;
-  background-size: cover;
-  background-position: center;
-  font-family: sans-serif;
+
+
+
+
+    margin: 0;
+    top: 0;
+
+
 }
 
-/*----------------------------------------------------------------------------------------------------------*/
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
 header {
 
   position: sticky;
@@ -19,7 +27,7 @@ header {
 
 .headcontainer{
   position: relative;
-  width: 1700px;
+  width: 1800px;
   height: 100px;
 
 
@@ -62,7 +70,7 @@ header {
 .headcontainer .titletext {
   position: relative;
 
-  width: 200px;
+  width: 250px;
   height: 60px;
   background: #000;
   float: left;
@@ -140,6 +148,7 @@ header {
 .headcontainer .menu-place1 .menu-content1 .hometext h4{
   color: #fff;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 .headcontainer .menu-place1 .menu-content1 .hometext h4 a{
@@ -222,7 +231,7 @@ header {
 .headcontainer .menu-place3 {
   position: relative;
 
-  width: 137px;
+  width: 170px;
   height: 40px;
   background: #4544f5;
   float: left;
@@ -241,7 +250,7 @@ header {
 
 .headcontainer .menu-place3 .menu-content3{
   position: relative;
-  width: 130px;
+  width: 180px;
   float: left;
   height: 40px;
 
@@ -327,7 +336,7 @@ header {
   color: #fff;
   font-size: 20px;
 }
-/*menu placeholder4 stylesheet - end*/
+/*menu placeholder4 stylesheet - begin*/
 
 
 
@@ -442,74 +451,122 @@ header {
   text-decoration: none;
 }
 /*menu placeholder5 stylesheet - end*/
-/*----------------------------------------------------------------------------------------------------------*/
 
-
-
-.contact-title {
-
-  margin-top: 200px;
-  color: #000;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.form2 h2{
+    letter-spacing: 5px;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.contact-title h1{
-  font-size: 32px;
-  line-height: 10px;
 
+
+.form2 input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
-.contact-title h2{
-  font-size: 16px;
+.form2 label {
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
 }
 
-.contact-form {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.form2 button{
 
-}
 
-form {
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
+    width: 140px;
+    float: right;
 
-}
+    padding: 20px 15px;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
 
-.form-control {
-  width: 600px;
-  background: transparent;
+  background-color: forestgreen;
   border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-  color: #000;
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-
-input {
-  height: 45px;
-
-}
-
-form .form-control-submit {
-  background: #229954;
-  border-color: transparent;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 20px;
-  padding: 10px 10px;
-  border-radius: 10px;
-}
-
-form .form-control-submit:hover{
-  background-color: #2E86C1;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  transition-duration: 0.4s;
   cursor: pointer;
+
+}
+
+.form2 button:hover{
+
+    background-color: black;
+    opacity: .7;
+}
+
+.form2 .error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+.form2 h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form2 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+
+  position: ;
+
+
+}
+
+.form2 .success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+.formholder {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+  margin-top: 200px;
+
 }

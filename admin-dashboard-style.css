@@ -1,14 +1,14 @@
 body {
-
   margin: 0;
   padding: 0;
-  background-color: #EBEDEF;
-  background-size: cover;
-  background-position: center;
   font-family: sans-serif;
+  background-color: #EBEDEF;
+
+
 }
 
-/*----------------------------------------------------------------------------------------------------------*/
+
+
 header {
 
   position: sticky;
@@ -19,7 +19,7 @@ header {
 
 .headcontainer{
   position: relative;
-  width: 1700px;
+  width: 1800px;
   height: 100px;
 
 
@@ -62,7 +62,7 @@ header {
 .headcontainer .titletext {
   position: relative;
 
-  width: 200px;
+  width: 250px;
   height: 60px;
   background: #000;
   float: left;
@@ -99,7 +99,7 @@ header {
 
   width: 130px;
   height: 40px;
-  background: #000;
+  background: #4544f5;
   float: left;
   margin-left: 100px;
   margin-top: 15px;
@@ -110,7 +110,7 @@ header {
 
 }
 .headcontainer .menu-place1:hover {
-  background: #666;
+  background: #369159;
   cursor: pointer;
 }
 
@@ -144,7 +144,6 @@ header {
 
 .headcontainer .menu-place1 .menu-content1 .hometext h4 a{
   color: #fff;
-
 }
 
 .headcontainer .menu-place1 .menu-content1 .hometext h4 a:link{
@@ -222,9 +221,9 @@ header {
 .headcontainer .menu-place3 {
   position: relative;
 
-  width: 137px;
+  width: 170px;
   height: 40px;
-  background: #4544f5;
+  background: #000;
   float: left;
   margin-left: 10px;
   margin-top: 15px;
@@ -235,13 +234,13 @@ header {
 
 }
 .headcontainer .menu-place3:hover {
-  background: #369159;
+  background: #666;
   cursor: pointer;
 }
 
 .headcontainer .menu-place3 .menu-content3{
   position: relative;
-  width: 130px;
+  width: 180px;
   float: left;
   height: 40px;
 
@@ -327,7 +326,7 @@ header {
   color: #fff;
   font-size: 20px;
 }
-/*menu placeholder4 stylesheet - end*/
+/*menu placeholder4 stylesheet - begin*/
 
 
 
@@ -442,74 +441,171 @@ header {
   text-decoration: none;
 }
 /*menu placeholder5 stylesheet - end*/
-/*----------------------------------------------------------------------------------------------------------*/
 
 
 
-.contact-title {
 
-  margin-top: 200px;
-  color: #000;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.contact-title h1{
-  font-size: 32px;
-  line-height: 10px;
 
-}
 
-.contact-title h2{
-  font-size: 16px;
-}
 
-.contact-form {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/*blockholder and blocks- begin*/
 
-}
-
-form {
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
-
-}
-
-.form-control {
-  width: 600px;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-  color: #000;
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-
-input {
-  height: 45px;
-
-}
-
-form .form-control-submit {
-  background: #229954;
-  border-color: transparent;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  height: 50px;
+.blockholder {
+  position: absolute;
+  width: 1700px;
+  height: 300px;
+  margin-left: 8%;
   margin-top: 20px;
-  padding: 10px 10px;
-  border-radius: 10px;
+
 }
 
-form .form-control-submit:hover{
-  background-color: #2E86C1;
+.blockholder .block {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #283747;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.blockholder .block:hover{
+  width: calc(500px - 30px);
+  height: calc(400px - 30px);
+}
+
+.blockholder .block .block-icon .fa-book {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: 8%;
+  width: 10px;
+  height: 20px;
+}
+
+.blockholder .block .block-icon .fa-id-card {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: 8%;
+  width: 10px;
+  height: 20px;
+}
+
+.blockholder .block .block-icon .fa-user {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: 8%;
+  width: 10px;
+  height: 20px;
+}
+
+.blockholder .block .block-icon .fa-briefcase {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: 8%;
+  width: 10px;
+  height: 20px;
+}
+
+
+.blockholder .block .block-text h2 {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-top: 8% ;
+
+  font-family: sans-serif;
+  font-size: 40px;
+  height: 50px;
+}
+
+.blockholder .block .block-text h3 {
+
+  position: relative;;
+  color: #E5E7E9;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: -20px;
+  text-align: center;;
+}
+
+.blockholder .block .block-controler {
+  position: absolute;
+  width: 400px;
+  background-color: ;
+  height: 400px;
+  bottom: 2%;
+  left: 0%;
+  top: 50%;
+  transition: 0.5s;
+  background-color:  ;
+}
+
+.blockholder .block .block-controler:hover {
+  top: 20px;
+}
+
+
+
+.blockholder .block .block-controler .button {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: #1D8348;
+  margin-left: 34%;
+  margin-top: 210px;
+  box-sizing: border-box;;
+  border-radius: 6px;
+}
+
+.blockholder .block .block-controler .button:hover {
+  background-color: #239B56;
   cursor: pointer;
+}
+
+.blockholder .block .block-controler .button h3 {
+  position: absolute;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 8px;
+  text-align:center;
+}
+
+.blockholder .block .block-controler .button h3 a{
+  color: #fff;
+}
+
+.blockholder .block .block-controler .button h3 a:link{
+  text-decoration: none;
+}
+
+
+.blockholder .block:nth-child(1) {
+  background-color: #6C3483;
+}
+
+.blockholder .block:nth-child(2) {
+  background-color: #2874A6;
+}
+
+.blockholder .block:nth-child(3) {
+  background-color: #117A65;
+}
+
+.blockholder .block:nth-child(4) {
+  background-color: #B03A2E;
 }
