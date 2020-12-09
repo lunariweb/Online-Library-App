@@ -98,7 +98,7 @@
          </div>
          <div class="text6">
            <h4>
-             <?php
+              <?php
 
                  session_start();
 
@@ -113,7 +113,7 @@
                      header("Location: index.php");
                  exit();
                  }
-
+                 
              ?>
 
 

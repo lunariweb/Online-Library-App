@@ -1,65 +1,69 @@
 <DOCTYPE html>
 
 <html>
-    <link rel="stylesheet" type="text/css" href="style4.css">
-    
+    <link rel="stylesheet" type="text/css" href="">
+
     <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    
+
         <title>Browse Books</title>
-        
-        <?php
 
-            session_start();
-        
-            if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
-    
 
-        ?>
-        
-        <h3> Hello, <?php echo $_SESSION['name']; ?></h3>
-        <a href="logout.php" class="b2">Logout</a>
-        
-        
-        
-        <?php
-            }else{
-                header("Location: index.php");
-            exit();
-            }
+<!--- -------------------------------------------------------------------------->
 
-        ?>
-        
-        
-        
-        <h1>Online Library</h1>
-        <h2>Browse Books</h2>
+
+<!--- ---------------------------------------------------------------------------->
+
     </head>
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+<body>
+
+  <?php
+      include("db_conn.php");
+
+
+  error_reporting(0);
+
+  $query = "SELECT * book_link FROM books WHERE id = 5";
+
+  echo "$query";
+
+
+
+
+
+  ?>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
 
 

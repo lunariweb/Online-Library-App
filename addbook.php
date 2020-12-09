@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> Add Books </title>
+    <title> ADD BOOKS </title>
     <link rel="stylesheet" type="text/css" href="style7.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 </head>
@@ -136,8 +136,8 @@
   <div class="formholder">
 
 
-    <form action="addbook-check.php" method="post" class="form2">
-        <h2> Add Books </h2>
+    <form action="addbook-check.php" method="post" class="form2" enctype="multipart/form-data">
+        <h2> ADD BOOKS </h2>
         <?php if (isset($_GET['error'])) { ?>
             <p class="error"><?php echo $_GET['error']; ?></p>
         <?php } ?>
@@ -162,6 +162,9 @@
         <?php }else{ ?>
                 <input type="text" name="book_type" placeholder="Book Type"><br>
         <?php }?>
+
+        <label>Book Image</label>
+        <input type="file" name="pic" multiple>
 
         <label> Book Link </label>
         <?php if (isset($_GET['book_link'])) { ?>

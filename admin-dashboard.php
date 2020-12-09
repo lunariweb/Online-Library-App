@@ -162,7 +162,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="admin.php">manage</a></h3>
+            <h3><a href="admin.php">Manage</a></h3>
 
           </div>
 
@@ -195,7 +195,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="addbook.php">Add Books</a></h3>
+            <h3><a href="delete-books.php">Manage Books</a></h3>
 
           </div>
 

@@ -113,6 +113,8 @@
            </div>
            <div class="text6">
              <h4>
+
+
                <?php
 
                    session_start();
@@ -212,7 +214,7 @@ echo $result['id'] . " " . $result['book_name'] . " " . $result['book_type'];
 
         function checkdelete() {
 
-          return confirm('Are Your Sure You Wand To Delete This Book?');
+          return confirm('Are You Sure You Want To Delete This Book?');
         }
 
         </script>

@@ -11,7 +11,10 @@ $data=mysqli_query($conn, $query);
 
 if($data) {
 
-    echo "<script>alert ('Book Deleted')</script>";
+    echo "<script>alert ('Book Deleted') </script>";
+
+  
+    header("Location: delete-books.php");
 
 ?>
 
