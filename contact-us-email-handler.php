@@ -2,13 +2,15 @@
 
   $name = $_POST['name'];
   $viewer_email = $_POST['email'];
+  $viewer_mobile = $_POST['mobile'];
   $message = $_POST['message'];
 
   $email_from = 'lunaristudiosglobal@gmail.com';
-  $email_subject = "New Book Request";
+  $email_subject = "Customer Wants To Contact You";
 
   $email_body = "User Name: $name.\n".
                   "User Email: $viewer_email.\n".
+                    "User Mobile: $viewer_mobile.\n".
                     "User Message: $message.\n";
 
 
@@ -20,5 +22,5 @@
 
   mail($to,$email_subject,$email_body,$headers);
 
-  header("Location: book-request.php"); 
+  header("Location: contact-us.php");
  ?>

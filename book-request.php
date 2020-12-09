@@ -68,7 +68,7 @@
 
          </div>
          <div class="text4">
-           <h4>Contact</h4>
+           <h4><a href="contact-us.php">Contact</a></h4>
          </div>
 
 
@@ -146,16 +146,27 @@
     <div class="contact-form">
       <form id="contact-form" method="post" action="contact-form-handler.php">
         <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
-        <input name="email "type="email" class="form-control" placeholder="Your Email" required><br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
 
           <textarea name="message" class="form-control" placeholder="Your Request" rows="8" required></textarea><br>
 
-          <input type="submit" class="form-control-submit" value="SEND REQUEST">
+          <input type="submit" class="form-control-submit" value="SEND REQUEST" onclick=" return checkemail()">
 
 
       </form>
 
     </div>
+
+
+
+    <script type="text/javascript">
+
+    function checkemail() {
+
+      return confirm('Email Sent Succesfully');
+    }
+
+    </script>
   </body>
 
 

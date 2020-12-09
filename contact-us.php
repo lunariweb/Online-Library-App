@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <title> Dashboard </title>
-    <link rel="stylesheet" type="text/css" href="style5.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-  </head>
+    <title>Contact Us</title>
 
+    <link rel="stylesheet" href="contact-us-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+  </head>
   <header>
    <div class="headcontainer">
 
@@ -15,7 +15,7 @@
 
      </div>
      <div class="titletext">
-       <h2>User Dashboard</h2>
+       <h2>Contact Us</h2>
      </div>
 
      <div class="menu-place1">
@@ -25,7 +25,7 @@
 
          </div>
          <div class="hometext">
-           <h4><a href="#">Home</a></h4>
+           <h4><a href="dashboard.php">Home</a></h4>
          </div>
 
 
@@ -68,7 +68,7 @@
 
          </div>
          <div class="text4">
-           <h4><a href="contact-us.php">Contact</a></h4>
+           <h4><a href="#">Contact</a<</h4>
          </div>
 
 
@@ -132,100 +132,47 @@
 
    </div>
   </header>
+
   <body>
 
 
+    <div class="contact-title">
 
-    <div class="blockholder">
-      <div class="block">
+      <h1>Having Issues?</h1>
+      <h2>Send Us A Message, We will get back to you</h2>
 
-        <div class="block-icon">
-          <i class="fa fa-book" aria-hidden="true"></i>
+    </div>
 
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-us-email-handler.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        <input type="text" name="mobile" class="form-control" placeholder="Your Mobile Number" required><br>
 
-        </div>
-        <div class="block-text">
+          <textarea name="message" class="form-control" placeholder="Your Message" rows="8" required></textarea><br>
 
-          <h2>450/1000</h2>
-          <h3>Downloaded Books</h3>
-        </div>
-
-        <div class="block-controler">
-          <div class="button">
-            <h3>Browse</h3>
-
-          </div>
-
-        </div>
-
-      </div>
-      <div class="block">
-        <div class="block-icon">
-          <i class="fa fa-id-card" aria-hidden="true"></i>
+          <input type="submit" class="form-control-submit" value="SEND REQUEST" onclick=" return checkemail()">
 
 
-        </div>
-        <div class="block-text">
-
-
-          <h2>#OLUS2020_<?php echo $_SESSION['id']; ?></h2>
-          <h3>User ID</h3>
-        </div>
-
-        <div class="block-controler">
-          <div class="button">
-            <h3>Details</h3>
-
-          </div>
-
-        </div>
-
-      </div>
-      <div class="block">
-        <div class="block-icon">
-          <i class="fa fa-user" aria-hidden="true"></i>
-
-
-        </div>
-        <div class="block-text">
-
-          <h2><?php echo $_SESSION['user_name']; ?></h2>
-          <h3>User Name</h3>
-        </div>
-
-        <div class="block-controler">
-          <div class="button">
-            <h3>Change</h3>
-
-          </div>
-
-        </div>
-
-      </div>
-      <div class="block">
-        <div class="block-icon">
-          <i class="fa fa-briefcase" aria-hidden="true"></i>
-
-
-        </div>
-        <div class="block-text">
-          <h2>10/50</h2>
-          <h3>Personal Briefcase</h3>
-        </div>
-
-        <div class="block-controler">
-          <div class="button">
-            <h3>Browse</h3>
-
-          </div>
-
-        </div>
-
-      </div>
+      </form>
 
     </div>
 
 
+
+    <script type="text/javascript">
+
+    function checkemail() {
+
+      return confirm('Email Sent Succesfully');
+    }
+
+    </script>
   </body>
+
+
+
+
+
 
 </html>

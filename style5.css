@@ -141,6 +141,14 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.headcontainer .menu-place1 .menu-content1 .hometext h4 a{
+  color: #fff;
+}
+
+.headcontainer .menu-place1 .menu-content1 .hometext h4 a:link{
+  text-decoration: none;
+}
 /*menu placeholder1 stylesheet - begin*/
 
 
@@ -291,7 +299,7 @@ header {
   cursor: pointer;
 }
 
-.headcontainer .menu-place4 .menu-content2{
+.headcontainer .menu-place4 .menu-content4{
   position: relative;
   width: 130px;
   float: left;
@@ -317,6 +325,14 @@ header {
 .headcontainer .menu-place4 .menu-content4 .text4 h4{
   color: #fff;
   font-size: 20px;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a{
+  color: #fff;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a:link{
+  text-decoration: none;
 }
 /*menu placeholder4 stylesheet - begin*/
 

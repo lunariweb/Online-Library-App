@@ -81,7 +81,7 @@
 
          </div>
          <div class="text4">
-           <h4>Contact</h4>
+           <h4><a href="contact-us.php">Contact</a></h4>
          </div>
 
 

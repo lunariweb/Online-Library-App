@@ -224,7 +224,7 @@ header {
 
   width: 137px;
   height: 40px;
-  background: #4544f5;
+  background: #000;
   float: left;
   margin-left: 10px;
   margin-top: 15px;
@@ -235,7 +235,7 @@ header {
 
 }
 .headcontainer .menu-place3:hover {
-  background: #369159;
+  background: #666;
   cursor: pointer;
 }
 
@@ -285,7 +285,7 @@ header {
 
   width: 137px;
   height: 40px;
-  background: #000;
+  background: #4544f5;
   float: left;
   margin-left: 10px;
   margin-top: 15px;
@@ -296,11 +296,11 @@ header {
 
 }
 .headcontainer .menu-place4:hover {
-  background: #666;
+  background: #369159;
   cursor: pointer;
 }
 
-.headcontainer .menu-place4 .menu-content4{
+.headcontainer .menu-place4 .menu-content2{
   position: relative;
   width: 130px;
   float: left;
@@ -328,13 +328,12 @@ header {
   font-size: 20px;
 }
 
-.headcontainer .menu-place4 .menu-content4 .text4 h4 a{
-  color: #fff;
-
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a {
+	color: #fff;
 }
 
 .headcontainer .menu-place4 .menu-content4 .text4 h4 a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 /*menu placeholder4 stylesheet - end*/
 
