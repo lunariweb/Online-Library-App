@@ -113,7 +113,7 @@
                      header("Location: index.php");
                  exit();
                  }
-                 
+
              ?>
 
 
@@ -146,13 +146,13 @@
         </div>
         <div class="block-text">
 
-          <h2>450/1000</h2>
-          <h3>Downloaded Books</h3>
+          <h2>News</h2>
+          <h3>Access To News</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Browse</h3>
+            <h3>Access</h3>
 
           </div>
 
@@ -209,13 +209,13 @@
 
         </div>
         <div class="block-text">
-          <h2>10/50</h2>
-          <h3>Personal Briefcase</h3>
+          <h2>Profile</h2>
+          <h3>Personal Profile</h3>
         </div>
 
         <div class="block-controler">
           <div class="button">
-            <h3>Browse</h3>
+            <h3>Customize</h3>
 
           </div>
 
