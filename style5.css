@@ -525,7 +525,7 @@ header {
 .blockholder .block .block-text h3 {
 
   position: relative;;
-  color: #7B7D7D;
+  color: #fff;
   font-family: sans-serif;
   font-size: 20px;
   margin-top: -20px;
@@ -577,17 +577,17 @@ header {
 
 
 .blockholder .block:nth-child(1) {
-  background-color: #283747;
+  background-color: #2E4053;
 }
 
 .blockholder .block:nth-child(2) {
-  background-color: #B03A2E;
+  background-color: #d03852;
 }
 
 .blockholder .block:nth-child(3) {
-  background-color: #5B2C6F;
+  background-color: #328fa5;
 }
 
 .blockholder .block:nth-child(4) {
-  background-color: #21618C;
+  background-color: #D4AC0D;
 }

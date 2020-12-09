@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title> Dashboard </title>
+    <title> Admin Dashboard </title>
     <link rel="stylesheet" type="text/css" href="admin-dashboard-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
   </head>
@@ -172,7 +172,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="delete-books.php">Add Books</a></h3>
+            <h3><a href="addbook.php">Add Books</a></h3>
 
           </div>
 

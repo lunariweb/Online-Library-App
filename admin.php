@@ -30,7 +30,7 @@
 
        </div>
        <div class="titletext">
-         <h2>Admin Dashboard</h2>
+         <h2>Manage Users</h2>
        </div>
 
        <div class="menu-place1">
@@ -191,7 +191,7 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
              <td> " .$result['id']."</td>
              <td> " .$result['user_name']."</td>
              <td> " .$result['name']."</td>
-             <td> <a href = 'delete1.php?rn=$result[id]' >Delete</td>
+             <td> <a href = 'delete1.php?rn=$result[id]' onclick='return checkdelete()' >Delete</td>
              </tr>
              ";
 
@@ -203,10 +203,29 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
     }
 
 
+
+
 ?>
 
 
+
+
+
         </table>
+
+        <script type="text/javascript">
+
+        function checkdelete() {
+
+          return confirm('Are Your Sure You Wand To Delete This User?');
+        }
+
+        </script>
+
+
+
+
+
 
 
     </body>

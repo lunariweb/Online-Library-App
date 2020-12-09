@@ -30,7 +30,7 @@
 
        </div>
        <div class="titletext">
-         <h2>Admin Dashboard</h2>
+         <h2>Manage Books</h2>
        </div>
 
        <div class="menu-place1">
@@ -191,7 +191,7 @@ echo $result['id'] . " " . $result['book_name'] . " " . $result['book_type'];
              <td> " .$result['id']."</td>
              <td> " .$result['book_name']."</td>
              <td> " .$result['book_type']."</td>
-             <td> <a href = 'book-delete-check.php?rn=$result[id]' >Delete</td>
+             <td> <a href = 'book-delete-check.php?rn=$result[id]' onclick='return checkdelete()' >Delete</td>
              </tr>
              ";
 
@@ -207,6 +207,15 @@ echo $result['id'] . " " . $result['book_name'] . " " . $result['book_type'];
 
 
         </table>
+
+        <script type="text/javascript">
+
+        function checkdelete() {
+
+          return confirm('Are Your Sure You Wand To Delete This Book?');
+        }
+
+        </script>
 
 
     </body>

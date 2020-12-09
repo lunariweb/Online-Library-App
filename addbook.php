@@ -15,7 +15,7 @@
 
    </div>
    <div class="titletext">
-     <h2>Admin Dashboard</h2>
+     <h2>Add Books</h2>
    </div>
 
    <div class="menu-place1">

@@ -11,8 +11,18 @@ $data=mysqli_query($conn, $query);
 
 if($data) {
 
-    echo "User Deleted";
-}else{
+    echo "<script>alert ('Book Deleted')</script>";
+
+?>
+
+<META HTTP-EQUIV="Refresh" CONTENT="5; URL= http://localhost/git-folder/Online-Library-App/delete-books.php">
+
+<?php
+
+}
+
+
+else{
 
     echo "User Delete Failed";
 }
