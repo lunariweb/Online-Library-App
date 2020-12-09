@@ -1,7 +1,7 @@
 body {
     background-image: url(books_library_shelves_138556_1920x1080.jpg);
     background-size: cover;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,13 +9,13 @@ body {
     background-attachment: fixed;
     padding-top: 130px;
     flex-direction: column;
-    
+
 }
 
 *{
     font-family: sans-serif;
     box-sizing: border-box;
-    
+
 }
 
 h2{
@@ -32,12 +32,12 @@ form {
     padding: 30px;
     background: #fff;
     border-radius: 15px;
-    
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-    
-    
-    
+
+
+
+
 }
 
 input {
@@ -56,16 +56,16 @@ label {
 }
 
 button{
-    
-    
+
+
     width: 140px;
     float: right;
-    
+
     padding: 20px 15px;
     color: #fff;
     border-radius: 3px;
     margin-right: 10px;
-    
+
   background-color: forestgreen;
   border: none;
   color: white;
@@ -77,11 +77,11 @@ button{
   margin: 4px 5px;
   transition-duration: 0.4s;
   cursor: pointer;
-    
+
 }
 
 button:hover{
-    
+
     background-color: black;
     opacity: .7;
 }
@@ -103,7 +103,7 @@ h1 {
 }
 
 a {
-    
+
     display: block;
     background-color: darkgoldenrod;
     padding: 10px 15px;
@@ -115,21 +115,21 @@ a {
     shape-outside: border-box;
     width: 100%;
     text-align: center;
-    
-   
-    
-    
+
+
+
+
 }
 
 a:hover{
     background-color: white;
     color: black;
-    
+
 }
 
 
 .button2 {
-    
+
     margin-top: 30px;
     display: block;
     width: 100%%;
@@ -138,20 +138,20 @@ a:hover{
     padding: 10px 15px;
     color: white;
     border-radius: 5px;
-    
+
 }
 
 .button2:hover{
     background-color: dimgrey;
     color: white;
-    
+
 }
 
 h3 {
-    
+
     display: block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
     font-size: 15px;
 }
 
@@ -163,8 +163,8 @@ h3 {
     padding: 30px;
     background: #fff;
     border-radius: 15px;
-    
-    
+
+
 }
 
 .success {
@@ -178,32 +178,28 @@ h3 {
 
 
 .button3 {
-    
+
     text-align: center;
     background-color:darkcyan;
-    
+
     width: auto;
-    
+
     padding: 15px 30px;
-    
+
     width: 150px;
     margin-left: 9px;
-    
+
     transition-duration: 0.4;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
 .button3:hover {
-    
+
     background-color: dimgrey;
     color: white;
-    
+
 }
-
-
-
-

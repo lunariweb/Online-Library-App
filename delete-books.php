@@ -3,8 +3,8 @@
 
 <html>
 <head>
-  <title>Manage Users</title>
-    <link rel="stylesheet" type="text/css" href="style3.css">
+  <title>Manage Books</title>
+    <link rel="stylesheet" type="text/css" href="delete-books-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
 
@@ -55,7 +55,7 @@
 
            </div>
            <div class="text2">
-             <h4><a href="delete-books.php">Books</a></h4>
+             <h4><a href="#">Books</a></h4>
            </div>
 
 
@@ -97,7 +97,7 @@
 
            </div>
            <div class="text5">
-             <h4><a href="#">Settings</a></h4>
+             <h4>Settings</h4>
            </div>
 
 
@@ -155,9 +155,9 @@
     <table border="2">
 
         <tr>
-        <th>User ID</th>
-        <th>User Name</th>
-        <th>User Fullname</th>
+        <th>Book ID</th>
+        <th>Book Name</th>
+        <th>Book Type</th>
         <th>Action</th>
 
 
@@ -171,12 +171,12 @@
 
 error_reporting(0);
 
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM books";
 $data = mysqli_query($conn, $query);
 $total = mysqli_num_rows($data);
 
 
-echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
+echo $result['id'] . " " . $result['book_name'] . " " . $result['book_type'];
 
     if($total!=0){
 
@@ -189,9 +189,9 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
              <tr>
 
              <td> " .$result['id']."</td>
-             <td> " .$result['user_name']."</td>
-             <td> " .$result['name']."</td>
-             <td> <a href = 'delete1.php?rn=$result[id]' >Delete</td>
+             <td> " .$result['book_name']."</td>
+             <td> " .$result['book_type']."</td>
+             <td> <a href = 'book-delete-check.php?rn=$result[id]' >Delete</td>
              </tr>
              ";
 

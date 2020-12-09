@@ -3,8 +3,8 @@
 
 <html>
 <head>
-  <title>Manage Users</title>
-    <link rel="stylesheet" type="text/css" href="style3.css">
+  <title>View Admins</title>
+    <link rel="stylesheet" type="text/css" href="view-admins-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
 
@@ -83,7 +83,7 @@
 
            </div>
            <div class="text4">
-             <h4>Contact</h4>
+             <h4><a href="#">Contact</a></h4>
            </div>
 
 
@@ -155,9 +155,9 @@
     <table border="2">
 
         <tr>
-        <th>User ID</th>
-        <th>User Name</th>
-        <th>User Fullname</th>
+        <th>Admin ID</th>
+        <th>Admin Username</th>
+        <th>Admin Fullname</th>
         <th>Action</th>
 
 
@@ -171,12 +171,12 @@
 
 error_reporting(0);
 
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM adminsl";
 $data = mysqli_query($conn, $query);
 $total = mysqli_num_rows($data);
 
 
-echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
+echo $result['id'] . " " . $result['admin_uname'] . " " . $result['admin_name'];
 
     if($total!=0){
 
@@ -189,9 +189,9 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
              <tr>
 
              <td> " .$result['id']."</td>
-             <td> " .$result['user_name']."</td>
-             <td> " .$result['name']."</td>
-             <td> <a href = 'delete1.php?rn=$result[id]' >Delete</td>
+             <td> " .$result['admin_uname']."</td>
+             <td> " .$result['admin_name']."</td>
+             <td> <a href = '#?rn=$result[id]' >Contact</td>
              </tr>
              ";
 

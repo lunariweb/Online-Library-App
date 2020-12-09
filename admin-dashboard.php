@@ -40,7 +40,7 @@
 
          </div>
          <div class="text2">
-           <h4><a href="#">Browse</a></h4>
+           <h4><a href="delete-books.php">Books</a></h4>
          </div>
 
 
@@ -172,7 +172,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>Add Books</h3>
+            <h3><a href="delete-books.php">Add Books</a></h3>
 
           </div>
 
@@ -192,7 +192,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>View</h3>
+            <h3><a href="view-admins.php">View</a></h3>
 
           </div>
 

@@ -40,7 +40,7 @@
 
        </div>
        <div class="text2">
-         <h4><a href="#">Browse</a></h4>
+         <h4><a href="delete-books.php">Books</a></h4>
        </div>
 
 
@@ -54,7 +54,7 @@
 
        </div>
        <div class="text3">
-         <h4><a href="addbook.php">Add Books</a></h4>
+         <h4><a href="#">Add Books</a></h4>
        </div>
 
 

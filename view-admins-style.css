@@ -285,7 +285,7 @@ header {
 
   width: 137px;
   height: 40px;
-  background: #000;
+  background: #4544f5;
   float: left;
   margin-left: 10px;
   margin-top: 15px;
@@ -296,7 +296,7 @@ header {
 
 }
 .headcontainer .menu-place4:hover {
-  background: #666;
+  background: #369159;
   cursor: pointer;
 }
 
@@ -327,6 +327,14 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a{
+  color: #fff;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a:link{
+  text-decoration: none;
+}
 /*menu placeholder4 stylesheet - begin*/
 
 
@@ -338,7 +346,7 @@ header {
 
   width: 150px;
   height: 40px;
-  background: #4544f5;
+  background: #000;
   float: left;
   margin-left: 13px;
   margin-top: 15px;
@@ -349,7 +357,7 @@ header {
 
 }
 .headcontainer .menu-place5:hover {
-  background: #369159;
+  background: #666;
   cursor: pointer;
 }
 
@@ -456,169 +464,6 @@ header {
 
 
 
-
-
-
-/*blockholder and blocks- begin*/
-
-.blockholder {
-  position: absolute;
-  width: 1700px;
-  height: 300px;
-  margin-left: 8%;
-  margin-top: 20px;
-
-}
-
-.blockholder .block {
-  position: relative;
-  width: calc(400px - 30px);
-  height: calc(300px - 30px);
-  background: #283747;
-  float: left;
-  margin: 15px;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-radius: 10px;
-  transition: 0.5s;
-}
-
-.blockholder .block:hover{
-  width: calc(500px - 30px);
-  height: calc(400px - 30px);
-}
-
-.blockholder .block .block-icon .fa-book {
-  position: relative;
-  font-size: 60px;
-  color: #fff;
-  margin-left: 8%;
-  margin-top: 8%;
-  width: 10px;
-  height: 20px;
-}
-
-.blockholder .block .block-icon .fa-id-card {
-  position: relative;
-  font-size: 60px;
-  color: #fff;
-  margin-left: 8%;
-  margin-top: 8%;
-  width: 10px;
-  height: 20px;
-}
-
-.blockholder .block .block-icon .fa-user {
-  position: relative;
-  font-size: 60px;
-  color: #fff;
-  margin-left: 8%;
-  margin-top: 8%;
-  width: 10px;
-  height: 20px;
-}
-
-.blockholder .block .block-icon .fa-briefcase {
-  position: relative;
-  font-size: 60px;
-  color: #fff;
-  margin-left: 8%;
-  margin-top: 8%;
-  width: 10px;
-  height: 20px;
-}
-
-
-.blockholder .block .block-text h2 {
-  position: relative;
-  color: #fff;
-  text-align: center;
-  margin-top: 8% ;
-
-  font-family: sans-serif;
-  font-size: 40px;
-  height: 50px;
-}
-
-.blockholder .block .block-text h3 {
-
-  position: relative;;
-  color: #E5E7E9;
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-top: -20px;
-  text-align: center;;
-}
-
-.blockholder .block .block-controler {
-  position: absolute;
-  width: 400px;
-  background-color: ;
-  height: 400px;
-  bottom: 2%;
-  left: 0%;
-  top: 50%;
-  transition: 0.5s;
-  background-color:  ;
-}
-
-.blockholder .block .block-controler:hover {
-  top: 20px;
-}
-
-
-
-.blockholder .block .block-controler .button {
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  background-color: #1D8348;
-  margin-left: 34%;
-  margin-top: 210px;
-  box-sizing: border-box;;
-  border-radius: 6px;
-}
-
-.blockholder .block .block-controler .button:hover {
-  background-color: #239B56;
-  cursor: pointer;
-}
-
-.blockholder .block .block-controler .button h3 {
-  position: absolute;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 20px;
-  width: 100%;
-  margin-left: 0px;
-  margin-top: 8px;
-  text-align:center;
-}
-
-.blockholder .block .block-controler .button h3 a{
-  color: #fff;
-}
-
-.blockholder .block .block-controler .button h3 a:link{
-  text-decoration: none;
-}
-
-
-.blockholder .block:nth-child(1) {
-  background-color: #6C3483;
-}
-
-.blockholder .block:nth-child(2) {
-  background-color: #2874A6;
-}
-
-.blockholder .block:nth-child(3) {
-  background-color: #117A65;
-}
-
-.blockholder .block:nth-child(4) {
-  background-color: #B03A2E;
-}
 
 
 
