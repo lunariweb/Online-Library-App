@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Request a book</title>
+    <title>User Settings</title>
 
-    <link rel="stylesheet" href="style-book-request.css">
+    <link rel="stylesheet" href="user-settings-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
   </head>
@@ -15,7 +15,7 @@
 
      </div>
      <div class="titletext">
-       <h2>Request Books</h2>
+       <h2>User Settings</h2>
      </div>
 
      <div class="menu-place1">
@@ -54,7 +54,7 @@
 
          </div>
          <div class="text3">
-           <h4><a href="#">Request</a></h4>
+           <h4><a href="book-request.php">Request</a></h4>
          </div>
 
 
@@ -68,7 +68,7 @@
 
          </div>
          <div class="text4">
-           <h4><a href="contact-us.php">Contact</a></h4>
+           <h4><a href="contact-us.php">Contact</a<</h4>
          </div>
 
 
@@ -82,7 +82,7 @@
 
          </div>
          <div class="text5">
-           <h4><a href="user-settings.php">Settings</a></h4>
+           <h4><a href="#">Settings</a></h4>
          </div>
 
 
@@ -136,37 +136,14 @@
   <body>
 
 
-    <div class="contact-title">
-
-      <h1>Can't Find The Book?</h1>
-      <h2>Send Us A Request, So We Can Add The Book</h2>
-
-    </div>
-
-    <div class="contact-form">
-      <form id="contact-form" method="post" action="contact-form-handler.php">
-        <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
-        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-
-          <textarea name="message" class="form-control" placeholder="Your Request" rows="8" required></textarea><br>
-
-          <input type="submit" class="form-control-submit" value="SEND REQUEST" onclick=" return checkemail()">
-
-
-      </form>
+    <div class="main-text">
+      <h1>Coming On Sprint 3</h1>
 
     </div>
 
 
 
-    <script type="text/javascript">
 
-    function checkemail() {
-
-      return confirm('Email Sent Succesfully');
-    }
-
-    </script>
   </body>
 
 

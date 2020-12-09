@@ -388,6 +388,14 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.headcontainer .menu-place5 .menu-content5 .text5 h4 a{
+  color: #fff;
+}
+
+.headcontainer .menu-place5 .menu-content5 .text5 h4 a:link{
+  text-decoration: none;
+}
 /*menu placeholder5 stylesheet - end*/
 
 

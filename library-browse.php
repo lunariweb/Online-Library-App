@@ -95,7 +95,7 @@
 
          </div>
          <div class="text5">
-           <h4>Settings</h4>
+           <h4><a href="user-settings.php">Settings</a></h4>
          </div>
 
 
