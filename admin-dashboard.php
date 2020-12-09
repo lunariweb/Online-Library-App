@@ -146,7 +146,17 @@
         </div>
         <div class="block-text">
 
-          <h2>10/500</h2>
+
+
+          <?php
+            include "db_conn.php";
+
+            $query = "SELECT id FROM users ORDER BY id";
+            $query_run = mysqli_query($conn,$query);
+
+
+            $row = mysqli_num_rows($query_run);
+            echo '<h2>' .$row. '/500 </h2>';?>
           <h3>Users Registered</h3>
         </div>
 
@@ -166,7 +176,20 @@
 
         </div>
         <div class="block-text">
-          <h2>120/1000</h2>
+
+          <?php
+            include "db_conn.php";
+
+            $query = "SELECT id FROM books ORDER BY id";
+            $query_run = mysqli_query($conn,$query);
+
+
+            $row = mysqli_num_rows($query_run);
+            echo '<h2>' .$row. '/1000 </h2>';?>
+
+
+
+
           <h3>Books</h3>
         </div>
 
@@ -186,7 +209,21 @@
 
         </div>
         <div class="block-text">
-          <h2>3/10</h2>
+
+          <?php
+            include "db_conn.php";
+
+            $query = "SELECT id FROM adminsl ORDER BY id";
+            $query_run = mysqli_query($conn,$query);
+
+
+            $row = mysqli_num_rows($query_run);
+            echo '<h2>' .$row. '/10 </h2>';?>
+
+
+
+
+
           <h3>Admins</h3>
         </div>
 
@@ -206,7 +243,9 @@
 
         </div>
         <div class="block-text">
-          <h2>Your ID</h2>
+
+
+          <h2>#OLAD2020_<?php echo $_SESSION['id']; ?></h2>
           <h3>Admin ID Card</h3>
         </div>
 
