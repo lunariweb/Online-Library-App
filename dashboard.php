@@ -166,7 +166,9 @@
 
         </div>
         <div class="block-text">
-          <h2>#OL2012081157</h2>
+
+
+          <h2>#OLUS2020_<?php echo $_SESSION['id']; ?></h2>
           <h3>User ID</h3>
         </div>
 
@@ -186,7 +188,8 @@
 
         </div>
         <div class="block-text">
-          <h2>Your Uname</h2>
+
+          <h2><?php echo $_SESSION['user_name']; ?></h2>
           <h3>User Name</h3>
         </div>
 

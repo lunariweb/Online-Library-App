@@ -146,6 +146,7 @@
    </div>
   </header>
 
+
   <body>
     <!-- navigation of the library (not the main navigation ---->
 
@@ -165,11 +166,11 @@
         <!-- menu of the library browser --->
 
         <ul class="menu">
-          <li><a href="#">Home </a></li>
-          <li><a href="#">books</a></li>
-          <li><a href="#">TV Shows</a></li>
-          <li><a href="#">Hollywood</a></li>
-          <li><a href="#">Horror</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Fantasy</a></li>
+          <li><a href="#">Novels</a></li>
+          <li><a href="#">Comics</a></li>
+          <li><a href="#">Adventure</a></li>
 
         </ul>
 
@@ -502,9 +503,14 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="https://archive.org/download/1HarryPotterAndTheSorcerersStone/2-harry-potter-and-the-chamber-of-secrets.pdf">
         Harry Potter And The Chamber Of Secrets
       </a>
+
+
+
+
+
 
       </div>
 
@@ -518,7 +524,7 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="http://www.passuneb.com/elibrary/ebooks/HARRY%20POTTER%20AND%20THE%20PRISONER%20OF%20AZKABAN.pdf">
         Harry Potter And The Prisoner Of Azkaban
       </a>
 
@@ -534,7 +540,7 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="https://mcqueenglish.weebly.com/uploads/3/2/2/6/32260387/harry_potter_and_the_goblet_of_fire.pdf">
         Harry Potter And the Goblet Of Fire
       </a>
 
@@ -550,7 +556,7 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="https://www.missskirtich.com/uploads/2/3/3/7/23374820/5_-_harry_potter_and_the_order_of_the_phoenix_chapter_37.pdf">
         Harry Potter And The Order Of The Phoenix
       </a>
 
@@ -566,7 +572,7 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="https://englishfun.vn/wp-content/uploads/2018/04/6Harry-Potter-and-the-Half-Blood-Prince.pdf">
         Harry Potter And The Half-Blood Prince
       </a>
 
@@ -582,7 +588,7 @@
         </div>
 
       <!--- text ------------------------------------------------------------>
-      <a href="#">
+      <a href="https://getfreestories.weebly.com/uploads/7/9/0/2/79020522/harry_potter_and_the_deathly_ha_-_j.k._rowling.pdf">
         Harry Potter And The Deathly Hallows
       </a>
 
@@ -598,7 +604,7 @@
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="#">
+    <a href="http://www.samizdat.qc.ca/arts/lit/PDFs/LionWitchWardrobe_CSL.pdf">
       The Chronicles Of Narnia
     </a>
 
@@ -614,7 +620,7 @@
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="#">
+    <a href="https://s3.amazonaws.com/scschoolfiles/112/j-r-r-tolkien-lord-of-the-rings-01-the-fellowship-of-the-ring-retail-pdf.pdf">
       Lord Of The Ring
     </a>
 
@@ -630,7 +636,7 @@
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="#">
+    <a href="https://www.readingsanctuary.com/wp-content/uploads/2018/10/The-Hobbit-byJ-RR-Tolkien-EBOOK.pdf">
       The Hobbit
     </a>
 
