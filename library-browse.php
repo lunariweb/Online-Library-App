@@ -173,7 +173,7 @@
 
 
         <!-- menu of the library browser --->
-
+<!--- - to be completed in sprint 3----------------------------------------------------->
         <ul class="menu">
           <li><a href="#">All</a></li>
           <li><a href="#">Fantasy</a></li>
