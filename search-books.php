@@ -46,7 +46,7 @@
 
            </div>
            <div class="text2">
-             <h4><a href="#">Browse</a></h4>
+             <h4><a href="library-browse.php">Browse</a></h4>
            </div>
 
 
@@ -142,6 +142,13 @@
     <!--- ---------------------------------------------------------------------------------------------------------------------------------->
 
     <body>
+
+      <div class="back-btn">
+
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        <a class="abc" type="submit" name="button" href="library-browse.php">Back</a>
+
+      </div>
 
       <div class="title">
         <h1>Search The Library</h1>

@@ -186,7 +186,7 @@
         <!--- search bar--->
 
         <div class="search">
-          <input type="text" placeholder="Find books">
+          <a href="search-books.php" class="search-books-btn">Search</a>
           <i class="fa fa-search" aria-hidden="true"></i>
 
         </div>
