@@ -1,5 +1,5 @@
 <?php
-
+//adding the data from the form contact us and adding them into a email format and handling the sedgin the proess
   $name = $_POST['name'];
   $viewer_email = $_POST['email'];
   $viewer_mobile = $_POST['mobile'];

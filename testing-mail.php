@@ -1,4 +1,5 @@
 <?php
+//not a part of the app this code is written to check that if the mail smto is set correctly
 //the subject
 $sub = "Your aaaaaaaaaaaaaaaaaaasubject";
 //the message

@@ -2,16 +2,16 @@
 <html>
 
 <head>
-    <title> ADD BOOKS </title>
-    <link rel="stylesheet" type="text/css" href="style7.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title> ADD BOOKS </title>  <!-- the title that is showing in the new tab title bar -->
+    <link rel="stylesheet" type="text/css" href="style7.css"> <!--linking the stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" > <!-- linking font awesome cdn to use icons -->
 </head>
 
 <header>
- <div class="headcontainer">
+ <div class="headcontainer"> <!-- new divs-->
 
 
-   <div class="logoplaceholder"><i class="fa fa-book" aria-hidden="true"></i>
+   <div class="logoplaceholder"><i class="fa fa-book" aria-hidden="true"></i> <!--fetching the icon from the fontawesome cdn -->
 
    </div>
    <div class="titletext">
@@ -100,13 +100,13 @@
          <h4>
            <?php
 
-               session_start();
+               session_start(); //strting a new session for the user id
 
                if (isset($_SESSION['id']) && isset($_SESSION['admin_uname'])){
 
 
            ?>
-           <a href="logout.php">Logout</a>
+           <a href="logout.php">Logout</a> <!--addign the logout button to end the session and linking the button to the session destroying php file -->
 
            <?php
                }else{
@@ -136,9 +136,9 @@
   <div class="formholder">
 
 
-    <form action="addbook-check.php" method="post" class="form2" enctype="multipart/form-data">
+    <form action="addbook-check.php" method="post" class="form2" enctype="multipart/form-data"> <!--new form to check the books and add the books to the databse -->
         <h2> ADD BOOKS </h2>
-        <?php if (isset($_GET['error'])) { ?>
+        <?php if (isset($_GET['error'])) { ?> <!--adding the labels and inputs to the addbook form and adding new variables using php to access the database and fetch and add the details -->
             <p class="error"><?php echo $_GET['error']; ?></p>
         <?php } ?>
 
@@ -182,7 +182,7 @@
 
 
 
-        <button type="submit">Add Book</button>
+        <button type="submit">Add Book</button> <!--button to submit the form data to the datavbase -->
 
 
     </form>

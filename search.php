@@ -158,11 +158,11 @@
 
      <h1>Results</h1>
 
-     <div class="article-container">
+     <div class="article-container"> <!--showing the result which has been fetched from the databse -->
        <?php
           if (isset($_POST['submit-search'])) {
             $search = mysqli_real_escape_string($conn, $_POST['search']);
-            $sql = "SELECT * FROM books WHERE book_name LIKE '%$search%' OR book_type LIKE '%$search%' OR book_link LIKE '%$search%'";
+            $sql = "SELECT * FROM books WHERE book_name LIKE '%$search%' OR book_type LIKE '%$search%' OR book_link LIKE '%$search%'"; //seleccting the data from the databse and the data selected fom the databse doesnt matter the format of the search keyword it always gives th result
 
             $result = mysqli_query($conn, $sql);
 

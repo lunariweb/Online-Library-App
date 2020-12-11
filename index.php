@@ -1,6 +1,6 @@
 <DOCTYPE html>
 <html>
-
+<!-- the main login window and the homepahe pf the web app-->
 <head>
     <h1> Online Library </h1>
 

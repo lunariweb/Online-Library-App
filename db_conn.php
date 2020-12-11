@@ -1,5 +1,5 @@
 <?php
-
+//conneting the databse and the code
 $sname = "localhost";
 $uname = "root";
 $password = "";

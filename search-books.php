@@ -156,7 +156,7 @@
       </div>
 
 
-      <div class="form-holder">
+      <div class="form-holder"><!--the form to search the results from the databse -->
         <form action="search.php" method="post">
 
           <input type="text" name="search" placeholder="Search">
@@ -175,7 +175,7 @@
           $sql = "SELECT * FROM books";
           $result = mysqli_query($conn, $sql);
           $queryResults = mysqli_num_rows($result);
-
+            //searching the database and fetching the results
           if ($queryResults > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
               echo "<div class='article-box'>

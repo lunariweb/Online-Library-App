@@ -11,7 +11,7 @@ $data=mysqli_query($conn, $query);
 
 if($data) {
 
-    echo "<script>alert ('User Deleted')</script>";
+    echo "<script>alert ('User Deleted')</script>"; //using script to genarate alerts
 
 ?>
 

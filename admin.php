@@ -22,7 +22,7 @@
 
     </head>
 
-    <header>
+    <header> <!--header -->
      <div class="headcontainer">
 
 
@@ -150,7 +150,7 @@
 
     <body>
 
-
+<!--creating the table to show the data from the datavbase -->
 
     <table border="2">
 
@@ -182,7 +182,7 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
 
 
 
-        while($result=mysqli_fetch_assoc($data)){
+        while($result=mysqli_fetch_assoc($data)){ //fetching the data from the databse and adding them into a table with a delete button
 
              echo  "
 
@@ -212,7 +212,7 @@ echo $result['id'] . " " . $result['user_name'] . " " . $result['name'];
 
 
         </table>
-
+<!--creating a conmfirmation message -->
         <script type="text/javascript">
 
         function checkdelete() {

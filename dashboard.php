@@ -132,10 +132,11 @@
 
    </div>
   </header>
+  <!--end of the header file ---------------------------------------------------------------------------------------------------------------------->
   <body>
 
 
-
+<!-- creating blocks to hold the data for the Dashboard-->
     <div class="blockholder">
       <div class="block">
 

@@ -136,7 +136,7 @@
   <body>
 
 
-    <div class="contact-title">
+    <div class="contact-title"> <!--creating basic form holder and creating the form -->
 
       <h1>Having Issues?</h1>
       <h2>Send Us A Message, We will get back to you</h2>

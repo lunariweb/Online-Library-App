@@ -183,7 +183,7 @@ echo $result['id'] . " " . $result['book_name'] . " " . $result['book_type'];
     if($total!=0){
 
 
-
+//creating a form to delete the books in the database
         while($result=mysqli_fetch_assoc($data)){
 
              echo  "

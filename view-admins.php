@@ -182,7 +182,7 @@ echo $result['id'] . " " . $result['admin_uname'] . " " . $result['admin_name'];
 
 
 
-        while($result=mysqli_fetch_assoc($data)){
+        while($result=mysqli_fetch_assoc($data)){ //showing the admins which was fetched from the database
 
              echo  "
 

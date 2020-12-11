@@ -1,4 +1,4 @@
-<?php
+<?php // creating the php code to check the user names and passwords
 session_start();
 include "db_conn.php";
 if(isset($_POST['uname']) && isset($_POST['password'])){
@@ -22,7 +22,7 @@ if(isset($_POST['uname']) && isset($_POST['password'])){
         header("Location: index.php?error=Please enter the password");
         exit();
     }else{
-        //hashing password
+        //hashing password with md5 to encrypt the password 
 
         $pass = md5($pass);
 

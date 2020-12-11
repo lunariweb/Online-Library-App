@@ -143,7 +143,7 @@
 
     </div>
 
-    <div class="contact-form">
+    <div class="contact-form"> <!--creating a form to request books -->
       <form id="contact-form" method="post" action="contact-form-handler.php">
         <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
         <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>

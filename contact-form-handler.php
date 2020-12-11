@@ -1,5 +1,5 @@
 <?php
-
+//creating the format of the email that to add the data from the form and delivering the email to the admin
   $name = $_POST['name'];
   $viewer_email = $_POST['email'];
   $message = $_POST['message'];
@@ -20,5 +20,5 @@
 
   mail($to,$email_subject,$email_body,$headers);
 
-  header("Location: book-request.php"); 
+  header("Location: book-request.php");
  ?>
