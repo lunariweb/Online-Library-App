@@ -13,14 +13,14 @@ if($data) {
 
     echo "<script>alert ('Book Deleted') </script>";
 
-  
+
     header("Location: delete-books.php");
 
-?>
 
-<META HTTP-EQUIV="Refresh" CONTENT="5; URL= http://localhost/git-folder/Online-Library-App/delete-books.php">
 
-<?php
+
+
+
 
 }
 
